@@ -1,0 +1,72 @@
+{% load static %}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>main</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body class="body">
+<div>
+<img src="" alt="">
+
+    <div>
+
+        <button  type="button" class="btn btn-outline-primary button1">Main</button>
+        <button type="button" class="btn btn-outline-info button1">Planets</button>
+        <button type="button" class="btn btn-outline-warning button1">Stars</button>
+        <button type="button" class="btn btn-outline-light button1">Sputnik</button>
+
+        <input class="search" type="text" placeholder="Search" ></input>
+
+    </div>
+    <!--/#head-->
+    
+    <div>
+        <div>
+            <img class="img1" src="{% static 'img/main.WEBP' %}">
+
+
+         </div>
+        <div>
+            <a href="{% url 'earth-page' %} ">
+                <img class="img2" src="{% static 'img/earth.jpg' %}">
+            </a>
+            <div class="container1"> 
+                 <p class="p1">
+                  Земля Планета Третья по удалённости от Солнца планета Солнечной системы. Самая плотная, пятая по диаметру и массе среди всех планет Солнечной системы и крупнейшая среди планет земной группы, в которую входят также Меркурий, Венера и Марс. Единственное известное человеку в настоящее время тело во Вселенной, населённое живыми организмами.
+                </p>
+            </div>
+
+        </div>
+        <div>
+            <a href="{% url 'venus-page' %}">
+            <img class="img3" src="{% static 'img/venus.jpg' %}">
+            </a>
+            <div class="container1">
+                <p class="p2">
+                    Вторая по удалённости от Солнца и шестая по размеру планета Солнечной системы, наряду с Меркурием, Землёй и Марсом принадлежащая к семейству планет земной группы.
+                </p>
+            </div>
+        </div>
+        <div>
+            <a href="{% url 'mars-page' %}">
+                <img class="img4" src="{% static 'img/mars.jpg' %}">
+            </a>
+            <div class="container1">
+                 <p class="p3">
+                    Четвёртая по удалённости от Солнца (после Меркурия, Венеры и Земли) и седьмая по размеру (превосходит по массе и диаметру только Меркурий) планета Солнечной системы.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
