@@ -1,0 +1,174 @@
+.body{
+	background-color:  #d859f7;
+	position: relative;
+	animation-name: body_animation;
+	animation-duration: 30s;
+	
+}
+
+.head{
+	background-color:black;
+}
+
+ul{
+	list-style: nane;
+	margin: 0;
+	padding: 20px;
+}
+
+a{
+	font-size: 20px;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	animation-name: text_animation ;
+	animation-duration: 2s;
+}
+li{
+	display: inline;
+}
+/*
+.block{
+	width: 850px;
+	position: relative;
+	background-color: black	;
+	animation-name:img_animation;
+	animation-duration: 2s;
+}
+/*
+*/
+.container{
+	margin-top: 150px;
+	margin-left: 300px;
+	left: px;
+}
+.text1{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+
+}
+
+.img_content{
+	position: absolute;
+	margin-top: 100px 	;
+
+	
+}
+
+/*
+
+.circle{
+	margin-top:-100px ;
+	width:100px;
+	height:100px;
+	left:350px;
+	background-color: #d4bb3d	;
+	border-radius:50%;
+	position:relative;
+	animation-name:circle_animation;
+	animation-duration: 2s;
+
+}*/
+
+.intro{
+	max-height: 100vh;
+	overflow: hidden;
+	z-index: 4;
+}
+
+.video{
+	position: relative;
+	padding-bottom: 56.25%;
+}
+
+.video_media{
+	width: 100%;
+	height: auto;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+@keyframes text_animation{
+	0%{
+		color: #f75959;
+	}
+	25%{
+		color: #d859f7;
+	}
+	50%{
+		color: #59f7ed;
+	}
+	75%{
+		color: #f7e859;
+	}
+	100%{
+		
+		color:  #d859f7;
+	
+	}
+}
+
+@keyframes body_animation{
+	0%{
+		background-color: #f75959;
+	}
+	25%{
+		background-color: #d859f7;
+	}
+	50%{
+		background-color: #59f7ed;
+	}
+	75%{
+		background-color: #f7e859;
+	}
+	100%{
+		
+		background-color:  #d859f7;
+	
+	}
+}
+
+@keyframes circle_animation{
+		0%{
+			left:0px;
+			background-color: #c42cc7;
+		}
+		50%{
+			border-radius: 15%;
+		}
+		
+
+		100%{
+			left:350px;
+			background-color: #d4bb3d;
+		}
+}
+
+}
+
+@keyframes img_animation{
+		0%{
+			top:-1000px;
+		}
+
+		
+
+		100%{
+			top:0px;
+		}
+}		

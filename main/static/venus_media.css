@@ -1,0 +1,28 @@
+@media screen and (max-width:480px) {
+	.text1{
+		margin-left: 0vw ;
+	}
+
+	.img2{
+		width: 100vw;
+		margin-top: 10vh ;
+				bottom:0;
+
+	}
+	.text2{
+		position: static;
+		margin-top: 10vh;
+		margin-left: 0vw;
+		
+	}
+	.img3{
+		width: 100vw;
+		margin-top: -25vh;
+
+	}
+	.text3{
+		margin-top: 9vh;
+		margin-left: 0vw;
+		width: 100vw;
+	}
+}

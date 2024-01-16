@@ -1,0 +1,63 @@
+	.body{ 
+	height: 100%;
+	background: black;
+}
+
+.button1{
+    color : white ;
+    background-color : #1c1b18;
+	border-radius: 5px;
+	border-color: gray;
+	width: 150px;
+	height: 30px;
+}
+
+
+.img1{
+	width: 100%;
+	
+}
+
+.text-cont1{
+	background: gray;
+	width: 1100px;
+	margin-left: 750px ;
+	margin-top: -500px;
+	position: absolute;
+	border-radius: 15px;
+}
+
+.text1{
+	margin-left: 15px;
+
+}
+
+.img2{
+	width: 800px;
+	height: 800px;
+	margin-top: 0px;
+	
+
+}
+
+.img3{
+	width: 1000px;
+	height: 800px;
+	margin-left: -100px;
+}
+
+.text-cont2{
+	background: gray;
+	width: 1100px;
+	margin-left: 750px ;
+	margin-top: -600px;
+	position: absolute;
+	border-radius: 15px;
+}
+
+
+.text2{
+	margin-left: 15px;
+
+}
+

@@ -1,0 +1,76 @@
+.body{
+	background-color :rgb(64, 237, 226) ;
+	font-family: "Poppins", "Roboto", sans-serif;
+
+}
+.button1{
+	width: 200px;
+}
+
+.container1{
+	margin-left: 650px;
+	background-color: #087bffe6;
+	border-radius : 15px ;
+	margin-top: -100px;
+}
+
+
+.txt1{
+	width: 1200px;
+	margin-left: 15px;
+	margin-right: -300px;
+	margin-top: 200px;
+	color: ;  
+}
+
+.img1{
+	margin-top: -600px;
+	border-radius: 55px;
+
+}
+
+.container2{
+	margin-left: 0px;
+	background-color: #fff700e6;
+	border-radius : 15px ;
+	margin-top: -100px;
+	width: 1230px;
+}
+
+
+.txt2{
+	width: 1200px;
+	margin-left: 15px;
+	margin-right: -300px;
+	margin-top: 400px;
+	color: ;  
+}
+
+.img2{
+	width: 625px;
+	margin-top: -400px;
+	margin-left: 1250px ;
+	border-radius: 55px;
+}
+
+.container3{
+	margin-left: 470px;
+	background-color: #ff0000e6;
+	border-radius : 15px ;
+	margin-top: 100px;
+}
+
+
+.txt3{
+	width: 1300px;
+	margin-left: 15px;
+	margin-right: -300px;
+	margin-top: 200px;
+	color: ;  
+}
+
+.img3{
+	margin-top: -280px;
+	border-radius: 55px;
+
+}
